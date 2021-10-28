@@ -1,10 +1,11 @@
 import React from 'react'
+import Presentation from '../components/home/Presentation'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1> 
-    </div>
+    <section className="home container-fluid w-75 mx-auto">
+      <Presentation /> 
+    </section>
   )
 }
 

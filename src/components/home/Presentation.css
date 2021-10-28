@@ -1,0 +1,10 @@
+.home {
+  height: 700px;
+}
+.go {
+  background-color: #056491;
+  transition: 0.3s;
+}
+.go:hover {
+  background-color: #1b165e;
+}
