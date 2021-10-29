@@ -1,10 +1,13 @@
-.home {
-  height: 700px;
-}
 .go {
-  background-color: #056491;
+  background-color: #0794a3 !important;
   transition: 0.3s;
 }
 .go:hover {
-  background-color: #1b165e;
+  background-color: #100b55 !important;
+}
+
+@media screen and (max-width: 960px) {
+  .go {
+    width: 230px;
+  }
 }

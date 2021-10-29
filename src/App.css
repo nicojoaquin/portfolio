@@ -6,11 +6,18 @@
   color: #fff !important;
 }
 body {
-  background: #056491 !important;
+  background: #0794a3 !important;
 }
 .active {
-  border: white 1.5px outset;
+  background-color: #100b55;
 }
 section {
   background-color: rgba(255, 255, 255, 0.15);
+}
+.home,
+.about,
+.projects,
+.contact {
+  height: 750px;
+  border-radius: 15px;
 }
