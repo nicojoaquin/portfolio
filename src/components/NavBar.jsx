@@ -16,18 +16,18 @@ const NavBar = () => {
 
         <div className="collapse navbar-collapse p-3" id="navbarNav">
           
-          <ul className="navbar-nav">
+          <ul className="navbar-nav text-center">
             <li className="nav-item">
-              <NavLink exact to = "/" className="nav-link rounded-pill p-3 shadow-sm p-3 mb-5" activeClassName="active">Home</NavLink>
+              <NavLink exact to = "/" className="nav-link rounded-pill w-75 shadow-sm p-3 m-4" activeClassName="active">Home</NavLink>
             </li>
             <li className="nav-item rounded-pill">
-              <NavLink to = "/about" className="nav-link rounded-pill p-3 shadow-sm p-3 mb-5" activeClassName="active">About me</NavLink>
+              <NavLink to = "/about" className="nav-link rounded-pill w-auto  shadow-sm p-3 m-4" activeClassName="active">About me</NavLink>
             </li>
             <li className="nav-item rounded-pill">
-              <NavLink to = "/projects" className="nav-link rounded-pill p-3 shadow-sm p-3 mb-5" activeClassName="active">Projects</NavLink>
+              <NavLink to = "/projects" className="nav-link rounded-pill w-auto shadow-sm p-3 m-4" activeClassName="active">Projects</NavLink>
             </li>
             <li className="nav-item rounded-pill">
-              <NavLink to = "/contact" className="nav-link rounded-pill p-3 shadow-sm p-3 mb-5" activeClassName="active">Contact</NavLink>
+              <NavLink to = "/contact" className="nav-link rounded-pill w-auto shadow-sm p-3 m-4" activeClassName="active">Contact</NavLink>
             </li>
           </ul>
 

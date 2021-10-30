@@ -8,16 +8,20 @@
 body {
   background: #0794a3 !important;
 }
-.active {
-  background-color: #100b55;
-}
 section {
   background-color: rgba(255, 255, 255, 0.15);
+  width: 75% !important;
 }
 .home,
 .about,
 .projects,
 .contact {
-  height: 750px;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  section {
+    font-size: 70%;
+    width: 100% !important;
+  }
 }

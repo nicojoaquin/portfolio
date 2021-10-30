@@ -1,0 +1,24 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.skill-img {
+  width: 15%;
+}
+.skills div {
+  gap: 10px;
+}
+@media screen and (max-width: 960px) {
+  .skills div h5 {
+    font-size: 12px;
+  }
+  .desc {
+    font-size: 12px !important;
+  }
+  .aside {
+    margin-right: 30px;
+    height: 30px;
+    width: 150px;
+  }
+}

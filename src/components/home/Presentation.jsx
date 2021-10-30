@@ -6,7 +6,7 @@ import "./Presentation.css"
 
 const Presentation = () => {
   return (
-    <div className="d-flex flex-column align-items-center p-5v">
+    <div className="d-flex flex-column align-items-center p-5">
       <div className="m-5 text-center">
         <h1 className="mt-3 pt-5 fw-bold lg-5">Nicolás Joaquin</h1>
         <h2 className= "mt-3">Front End Web Developer</h2>

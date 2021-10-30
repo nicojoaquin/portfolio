@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion/dist/framer-motion'
+import AboutContainer from '../components/about/AboutContainer'
 
 const variants = {
   hidden: {
@@ -28,14 +29,14 @@ const transition = {
 const About = () => {
   return (
     <motion.section
-    className= "about container-fluid w-75 mx-auto"
+    className= "about container-fluid mx-auto"
     variants={variants}
     initial="hidden"
     animate="show"
     exit="out"
     transition={transition}
     >
-       <h1>About</h1> 
+     <AboutContainer />
     </motion.section>
   )
 }
