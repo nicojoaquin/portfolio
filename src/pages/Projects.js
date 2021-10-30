@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion/dist/framer-motion'
-import Sliders from '../components/projects/Sliders'
+import ProjectsContainer from '../components/projects/ProjectsContainer'
 
 const variants = {
   hidden: {
@@ -38,7 +38,7 @@ const Projects = () => {
       exit="out"
       transition={transition}
       >
-      <Sliders />
+      <ProjectsContainer />
     </motion.section>
   )
 }

@@ -11,10 +11,10 @@ const Presentation = () => {
         <h1 className="mt-3 pt-5 fw-bold lg-5">Nicolás Joaquin</h1>
         <h2 className= "mt-3">Front End Web Developer</h2>
       </div>
-      <div className="m-5 text-center">
+      <div className="m-5 text-center d-flex flex-column justify-content-center">
         <h3>Welcome to my personal website</h3>
 
-        <Link to="/about" className="go btn rounded-pill d-flex align-items-center justify-content-around m-5 pt-3 shadow-sm text-center">
+        <Link to="/about" className="go btn rounded-pill d-flex align-items-center justify-content-around m-5 pt-3 shadow-sm">
           <h4>Let's go!</h4>
           <FontAwesomeIcon icon={ faArrowCircleRight } size="8x" />
         </Link>

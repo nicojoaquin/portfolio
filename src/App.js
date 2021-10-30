@@ -1,4 +1,5 @@
 import React from "react";
+import Bubble from "./components/bubble/Bubble"
 import NavBar from './components/NavBar'
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,7 +10,6 @@ import { AnimatePresence  } from 'framer-motion/dist/framer-motion'
 
 
 import "./App.css"
-import "./bubble.css"
 
 function App() {
 
@@ -17,22 +17,7 @@ function App() {
 
   return (
     <>
-      
-      <section className="sticky">
-        <div className="bubbles">
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>   
-        </div>
-      </section>
-      
+        <Bubble />   
         <NavBar />
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.key}>
