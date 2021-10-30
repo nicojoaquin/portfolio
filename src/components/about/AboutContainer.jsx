@@ -8,7 +8,7 @@ import "./about.css"
 
 const AboutContainer = () => {
   return (
-    <div className = "d-flex flex-column align-items-center lh-lg p-5 fs-4">
+    <div className = "d-flex justify-content-center">
       <div className="m-5 p-5">
         <div className="d-flex justify-content-between">
           <div>

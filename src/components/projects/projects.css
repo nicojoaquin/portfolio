@@ -1,0 +1,19 @@
+.slide {
+  border-radius: 10% !important;
+  margin: 5rem;
+  overflow: hidden;
+  transform: scale(0.3);
+  transition: transform 500ms;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.slider-img {
+  border-radius: 10% 10% 0 0 !important;
+}
+.activeSlide {
+  border-radius: 10% !important;
+  margin: 5rem;
+  overflow: hidden;
+  transform: scale(1);
+  opacity: 1;
+}

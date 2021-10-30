@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion/dist/framer-motion'
-
+import Sliders from '../components/projects/Sliders'
 
 const variants = {
   hidden: {
@@ -28,16 +28,17 @@ const transition = {
 
 
 const Projects = () => {
+
   return (
     <motion.section
-      className= "projects container-fluid w-75 mx-auto"
+      className= "projects container-fluid mx-auto"
       variants={variants}
       initial="hidden"
       animate="show"
       exit="out"
       transition={transition}
-    >
-      <h1>Projects</h1> 
+      >
+      <Sliders />
     </motion.section>
   )
 }

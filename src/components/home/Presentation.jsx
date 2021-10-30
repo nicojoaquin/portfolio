@@ -14,7 +14,7 @@ const Presentation = () => {
       <div className="m-5 text-center">
         <h3>Welcome to my personal website</h3>
 
-        <Link to="/about" className="go btn rounded-pill d-flex align-items-center justify-content-around m-5 pt-3 shadow-sm">
+        <Link to="/about" className="go btn rounded-pill d-flex align-items-center justify-content-around m-5 pt-3 shadow-sm text-center">
           <h4>Let's go!</h4>
           <FontAwesomeIcon icon={ faArrowCircleRight } size="8x" />
         </Link>

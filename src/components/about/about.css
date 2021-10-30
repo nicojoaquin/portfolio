@@ -4,10 +4,13 @@
   gap: 25px;
 }
 .skill-img {
-  width: 15%;
+  width: 13%;
 }
 .skills div {
   gap: 10px;
+}
+.desc {
+  font-size: 18px !important;
 }
 @media screen and (max-width: 960px) {
   .skills div h5 {
