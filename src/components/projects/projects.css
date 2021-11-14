@@ -17,3 +17,19 @@
   transform: scale(1);
   opacity: 1;
 }
+.gitHub,
+.page {
+  transition: 0.3s;
+  border-radius: 8px;
+}
+.gitHub:hover,
+.page:hover {
+  background-color: rgb(201, 193, 193);
+  transition: 0.5s;
+}
+@media screen and (max-width: 450px) {
+  .card-body {
+    height: 85px;
+    font-size: 60%;
+  }
+}

@@ -33,7 +33,7 @@ const AboutContainer = () => {
           <br />
           I like to create responsive websites with different functionalities.
           <br />
-          My objebtive is to grow and acquire all the necessary knowledge to be a good professional.",
+          My objebtive is to grow up and acquire all the necessary knowledge to be a good professional.",
         </p>     
         <h2 className="fs-4 pt-4">Skills:</h2>
         <hr />
