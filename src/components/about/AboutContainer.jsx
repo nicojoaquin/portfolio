@@ -22,8 +22,8 @@ const AboutContainer = () => {
               to="/projects"
               className="go btn rounded-pill d-flex align-items-center justify-content-around m-5 pt-3 shadow-sm"
             >
-              <h4>Let's look at my projects!</h4>
-              <FontAwesomeIcon icon={faArrowCircleRight} size="8x" />
+              <h4 className="me-3">Let's look at my projects!</h4>
+              <FontAwesomeIcon icon={faArrowCircleRight} size="6x" />
             </Link>
           </aside>
         </div>
