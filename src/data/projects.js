@@ -20,7 +20,7 @@ export const imgs = [
     src: portfolio,
     desc: "Personal page, used as portfolio, developed with React.",
     repoLink: "https://github.com/nicojoaquin/Portfolio",
-    pageLink: "https://nicojoaquin.github.io/Portfolio/",
+    pageLink: "https://nicolas-joaquin.vercel.app/",
   },
   {
     src: storeLu,
