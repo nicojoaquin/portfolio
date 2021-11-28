@@ -25,7 +25,7 @@ const transition = {
 const Home = () => {
   return (
     <motion.section 
-      className="home container-fluid mt-5"
+      className="home container-fluid mx-auto"
       variants={variants}
       initial="hidden"
       animate="show"
