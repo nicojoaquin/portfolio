@@ -1,0 +1,29 @@
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+.nav-link:hover {
+  background-color: #0d8d9b;
+}
+.active {
+  background-color: #100b55;
+}
+.active:hover {
+  background: #130b81;
+}
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    transition: 0.3s;
+  }
+  .nav-menu {
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    margin-right: 30px;
+    transition: 0.3s;
+  }
+  .show-menu {
+    height: 21rem;
+    transition: 0.3s;
+  }
+}

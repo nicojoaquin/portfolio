@@ -1,10 +1,9 @@
 import React from "react";
 import Bubble from "./components/bubble/Bubble"
-import NavBar from './components/NavBar'
+import NavBar from './components/navBar/NavBar'
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
 import { Route, Switch, useLocation } from "react-router-dom";
 import { AnimatePresence  } from 'framer-motion/dist/framer-motion'
 
@@ -29,9 +28,6 @@ function App() {
             </Route>
             <Route  path="/projects">
               <Projects />
-            </Route>
-            <Route  path="/contact">
-              <Contact />
             </Route>
           </Switch>
         </AnimatePresence>

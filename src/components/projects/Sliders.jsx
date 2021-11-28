@@ -1,29 +1,38 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faWindowMaximize } from '@fortawesome/free-regular-svg-icons'
+import React from "react";
 
-import "./projects.css"
+import "./projects.css";
 
-const Sliders = ({imgIndex, src, desc, idx, repoLink, pageLink}) => {
-
-  return (   
-      
-    <div className={`w-100 card bg-dark slide ${idx === imgIndex && "activeSlide"}`}>
-      <img className="card-img-top slider-img" src={src} alt="proyect" />
-      <div className="card-body">
-        <p>
-          {desc}
-        </p>
-        <div className= "bg-secondary rounded-pill d-flex justify-content-evenly">
-          <a href={repoLink} rel="noopener noreferrer" target="_blank" className="card-link p-2 gitHub"><FontAwesomeIcon icon={ faGithub } size="3x" /></a>
-          <a href={pageLink} rel="noopener noreferrer" target="_blank" className="card-link p-2 page"><FontAwesomeIcon icon={faWindowMaximize} size= "3x" /></a>
-        </div> 
+const Sliders = ({ imgIndex, src, desc, idx, repoLink, pageLink }) => {
+  return (
+    <div
+      className={`w-100 card bg-dark slide ${
+        idx === imgIndex && "activeSlide"
+      }`}
+    >
+      <img className="card-img slider-img" src={src} alt="proyect" />
+      <div className="m-2">
+        <p>{desc}</p>
+        <div className="d-flex aling-items-center justify-content-center fs-5">
+          <a
+            href={repoLink}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="me-3 pr-links"
+          >
+            Code
+          </a>
+          <a
+            href={pageLink}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="pr-links"
+          >
+            Site
+          </a>
+        </div>
       </div>
-    </div>  
+    </div>
+  );
+};
 
-  )
-
-}
-
-export default Sliders
+export default Sliders;

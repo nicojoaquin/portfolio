@@ -1,3 +1,9 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .slide {
   border-radius: 10% !important;
   margin: 5rem;
@@ -10,6 +16,10 @@
 .slider-img {
   border-radius: 10% 10% 0 0 !important;
 }
+.pr-links:hover {
+  color: grey !important;
+  transition: 0.3s;
+}
 .activeSlide {
   border-radius: 10% !important;
   margin: 5rem;
@@ -17,19 +27,8 @@
   transform: scale(1);
   opacity: 1;
 }
-.gitHub,
-.page {
-  transition: 0.3s;
-  border-radius: 8px;
-}
-.gitHub:hover,
-.page:hover {
-  background-color: rgb(201, 193, 193);
-  transition: 0.5s;
-}
 @media screen and (max-width: 450px) {
-  .card-body {
-    height: 85px;
-    font-size: 60%;
+  .slick-slider {
+    width: 100%;
   }
 }
