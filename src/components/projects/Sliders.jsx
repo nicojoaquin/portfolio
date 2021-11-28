@@ -10,7 +10,7 @@ const Sliders = ({ imgIndex, src, desc, idx, repoLink, pageLink }) => {
       }`}
     >
       <img className="card-img slider-img" src={src} alt="proyect" />
-      <div className="m-2">
+      <div className="card-body">
         <p>{desc}</p>
         <div className="d-flex aling-items-center justify-content-center fs-5">
           <a

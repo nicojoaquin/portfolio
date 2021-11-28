@@ -18,11 +18,11 @@ const ProjectsContainer = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center text-center  w-100 mb-5">
+    <div className="d-flex justify-content-center text-center  mb-5">
       <div className="m-5 p-3 w-75 text-center w-100 p-5">
         <h1 className="pb-3">My projects</h1>
         <hr />
-        <Slider className="pt-5 slider" {...settings}>
+        <Slider className="pt-5" {...settings}>
           {imgs.map((img, idx) => (
             <Sliders key={idx} imgIndex={imgIndex} {...img} idx={idx} />
           ))}
