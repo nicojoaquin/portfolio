@@ -20,13 +20,13 @@ function App() {
         <NavBar />
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.key}>
-            <Route  path="/" exact>
+            <Route exact path="/">
               <Home />
             </Route>
-            <Route  path="/about">
+            <Route exact path="/about">
               <About />
             </Route>
-            <Route  path="/projects">
+            <Route exact path="/projects">
               <Projects />
             </Route>
           </Switch>
