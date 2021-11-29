@@ -8,9 +8,9 @@ import "./about.css";
 
 const AboutContainer = () => {
   return (
-    <div className="d-flex justify-content-center mb-5">
+    <div className="d-flex justify-content-center mb-5 p-5">
       <div>
-        <div className="pt-2 pr-2 d-flex justify-content-between">
+        <div className="pt-2 pr-2  d-flex justify-content-between">
           <div>
             <h2>
               Name: <br />
