@@ -9,6 +9,7 @@
   margin: 5rem;
   overflow: hidden;
   transform: scale(0.3);
+  width: 100%;
   transition: transform 500ms;
   opacity: 0.5;
   cursor: pointer;
@@ -27,8 +28,13 @@
   transform: scale(1);
   opacity: 1;
 }
+
 @media screen and (max-width: 450px) {
-  .slick-slider {
-    width: 100%;
+  .slide {
+    width: 150px;
+    height: 210px;
+  }
+  .slider-img {
+    height: 100px;
   }
 }

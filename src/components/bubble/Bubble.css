@@ -14,7 +14,7 @@
   height: 40px;
   background: #100b55;
   border-radius: 50%;
-  opacity: 0.5;
+  opacity: 0.2;
   animation: rise 10s infinite ease-in;
 }
 .bubble:nth-child(1) {

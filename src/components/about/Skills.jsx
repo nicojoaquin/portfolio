@@ -8,7 +8,7 @@ const Skills = () => {
       {skills.map((skill, idx) => (
         <div
           key={idx}
-          className="skill d-flex align-items-center w-75 overflow-hidden"
+          className="p-2 d-flex align-items-center w-75 overflow-hidden skill"
         >
           <img className="skill-img" src={skill.img} alt={skill.name} />
           <h5>{skill.name}</h5>
