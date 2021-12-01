@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <motion.section
-      className= "projects container-fluid mx-auto"
+      className= "projects container"
       variants={variants}
       initial="hidden"
       animate="show"

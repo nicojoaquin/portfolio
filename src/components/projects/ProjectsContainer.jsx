@@ -25,19 +25,21 @@ const ProjectsContainer = () => {
     <div className=" text-center mb-5 p-3 m-3">
       <h1 className="pb-3">My projects</h1>
       <hr />
-      <Slider className="pt-5 mx-10 slider" {...settings}>
-        {imgs.map((img, idx) => (
-          <Sliders key={idx} imgIndex={imgIndex} {...img} idx={idx} />
-        ))}
-      </Slider>
-      <div className="d-flex flex-column justify-content-center align-items-center">
-        <Link
-          to="/"
-          className="go btn rounded-pill d-flex align-items-center mt-5 shadow-sm"
-        >
-          <h4 className="me-3 mt-2">Contact me!</h4>
-          <FontAwesomeIcon icon={faArrowCircleLeft} size="5x" />
-        </Link>
+      <div className="text-center">
+        <Slider className="pt-5 mx-10 slider" {...settings}>
+          {imgs.map((img, idx) => (
+            <Sliders key={idx} imgIndex={imgIndex} {...img} idx={idx} />
+          ))}
+        </Slider>
+        <div className="d-flex flex-column justify-content-center align-items-center">
+          <Link
+            to="/"
+            className="go btn rounded-pill d-flex align-items-center mt-5 shadow-sm"
+          >
+            <h4 className="me-3 mt-2">Contact me!</h4>
+            <FontAwesomeIcon icon={faArrowCircleLeft} size="5x" />
+          </Link>
+        </div>
       </div>
     </div>
   );
