@@ -4,10 +4,10 @@ import "./projects.css";
 
 const Sliders = ({ imgIndex, src, desc, idx, repoLink, pageLink }) => {
   return (
-    <div className={`card bg-dark slide ${idx === imgIndex && "activeSlide"}`}>
+    <div className={`card bg-dark slide  ${idx === imgIndex && "activeSlide"}`}>
       <img className="card-img slider-img" src={src} alt="proyect" />
       <div className="card-body">
-        <p>{desc}</p>
+        <p className="slide-desc">{desc}</p>
         <div className="d-flex aling-items-center justify-content-center fs-5">
           <a
             href={repoLink}

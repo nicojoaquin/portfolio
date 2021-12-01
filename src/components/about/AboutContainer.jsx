@@ -27,9 +27,9 @@ const AboutContainer = () => {
           <aside className="aside">
             <Link
               to="/projects"
-              className="go btn rounded-pill d-flex align-items-center  mt-5 pt-3 shadow-sm w-100"
+              className="go btn rounded-pill d-flex align-items-center  mt-5  shadow-sm w-100"
             >
-              <h4 className="me-3">Let's look at my projects!</h4>
+              <h4 className="me-3 mt-2">Let's look at my projects!</h4>
               <FontAwesomeIcon icon={faArrowCircleRight} size="6x" />
             </Link>
           </aside>

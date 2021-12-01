@@ -47,10 +47,10 @@ const Presentation = () => {
         <div className="d-flex flex-column justify-content-center align-items-center">
           <Link
             to="/about"
-            className="go btn rounded-pill  d-flex align-items-center m-5 pt-3 shadow-sm"
+            className="go btn rounded-pill d-flex align-items-center mt-5 shadow-sm"
           >
-            <h4 className="me-3">Let's go!</h4>
-            <FontAwesomeIcon icon={faArrowCircleRight} size="6x" />
+            <h4 className="me-4 mt-2">Let's go!</h4>
+            <FontAwesomeIcon icon={faArrowCircleRight} size="5x" />
           </Link>
         </div>
       </div>
