@@ -2,6 +2,7 @@ import hardStore from "../assets/projects/hardStore.png"
 import storeLu from "../assets/projects/storeLu.png";
 import portfolio from "../assets/projects/portfolio.png";
 import lgant from "../assets/projects/lgant.png";
+import games from "../assets/projects/games.png";
 
 export const imgs = [
   {
@@ -9,6 +10,12 @@ export const imgs = [
     desc: "Men's clothing store, made with React, using Firebase-Firestore as database.",
     repoLink: "https://github.com/nicojoaquin/L-Gant",
     pageLink: "https://l-gant.vercel.app/",
+  },
+  {
+    src: games,
+    desc: "Free games app, fetching external api with redux toolkit. Login system made with MERN.",
+    repoLink: "https://github.com/nicojoaquin/games-app-backEnd",
+    pageLink: "https://freegamesapp.vercel.app/",
   },
   {
     src: hardStore,
