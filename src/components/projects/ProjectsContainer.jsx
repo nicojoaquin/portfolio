@@ -1,46 +1,49 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
-import Slider from "react-slick";
-import Sliders from "./Sliders";
+import React, { useEffect, useState } from "react";
+import { projects } from "../../data/projects";
+import { Carousel } from "3d-react-carousal";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { imgs } from "../../data/projects";
 import "./projects.css";
 
 const ProjectsContainer = () => {
-  const [imgIndex, setImgIndex] = useState(0);
+  const [slide, setSlide] = useState([]);
 
-  const settings = {
-    infinite: true,
-    centerMode: true,
-    centerPadding: "0.1px",
-    slidesToShow: 3,
-    speed: 500,
-    beforeChange: (current, next) => setImgIndex(next),
-  };
+  useEffect(() => {
+    setSlide(
+      projects.map((img) => (
+        <div>
+          <div className="card bg-dark w-100">
+            <img src={img.src} alt="proyect" />
+            <p>{img.desc}</p>
+            <div className="d-flex aling-items-center justify-content-center fs-3">
+              <a
+                href={img.repoLink}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="me-3 pr-links"
+              >
+                Code
+              </a>
+              <a
+                href={img.pageLink}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="pr-links"
+              >
+                Site
+              </a>
+            </div>
+          </div>
+        </div>
+      ))
+    );
+  }, []);
 
   return (
-    <div className=" text-center mb-5 p-3 m-3">
-      <h1 className="pb-3">My projects</h1>
-      <hr />
-      <div className="text-center">
-        <Slider className="pt-5 mx-10 slider" {...settings}>
-          {imgs.map((img, idx) => (
-            <Sliders key={idx} imgIndex={imgIndex} {...img} idx={idx} />
-          ))}
-        </Slider>
-        <div className="d-flex flex-column justify-content-center align-items-center">
-          <Link
-            to="/"
-            className="go btn rounded-pill d-flex align-items-center mt-5 shadow-sm"
-          >
-            <h4 className="me-3 mt-2">Contact me!</h4>
-            <FontAwesomeIcon icon={faArrowCircleLeft} size="5x" />
-          </Link>
-        </div>
-      </div>
+    <div className="text-center w-100 mt-5 p-3" style={{ heigth: 100 }}>
+      <h1 className="mt-5">My projects</h1>
+      <hr className="mb-3" />
+      <Carousel slides={slide} autoplay={false} />
     </div>
   );
 };

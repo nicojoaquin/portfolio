@@ -1,31 +1,4 @@
-.slide {
-  border-radius: 10% !important;
-  transform: scale(0.3);
-  transition: transform 500ms;
-  opacity: 0.5;
-  cursor: pointer;
-}
-.slider-img {
-  border-radius: 10% 10% 0 0 !important;
-}
 .pr-links:hover {
   color: grey !important;
   transition: 0.3s;
-}
-.activeSlide {
-  transform: scale(1);
-  opacity: 1;
-}
-
-@media screen and (max-width: 450px) {
-  .slider {
-    position: relative;
-    right: 17px;
-  }
-  .slide {
-    width: 120px;
-  }
-  .slide-desc {
-    font-size: 10px;
-  }
 }

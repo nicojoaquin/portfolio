@@ -31,13 +31,13 @@ const Projects = () => {
 
   return (
     <motion.section
-      className= "projects container"
+      className= "container"
       variants={variants}
       initial="hidden"
       animate="show"
       exit="out"
       transition={transition}
-      >
+    >
       <ProjectsContainer />
     </motion.section>
   )

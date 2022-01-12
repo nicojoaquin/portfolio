@@ -4,7 +4,7 @@ import portfolio from "../assets/projects/portfolio.png";
 import lgant from "../assets/projects/lgant.png";
 import games from "../assets/projects/games.png";
 
-export const imgs = [
+export const projects = [
   {
     src: lgant,
     desc: "Men's clothing store, made with React, using Firebase-Firestore as database.",

@@ -15,7 +15,7 @@ function App() {
   const location = useLocation()
 
   return (
-    <>
+    <div className="container">
         <Bubble />   
         <NavBar />
         <AnimatePresence exitBeforeEnter>
@@ -32,7 +32,7 @@ function App() {
           </Switch>
         </AnimatePresence>
 
-    </> 
+    </div> 
   );
 }
 
