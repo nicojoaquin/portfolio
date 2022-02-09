@@ -1,5 +1,5 @@
 import hardStore from "../assets/projects/hardStore.png"
-import storeLu from "../assets/projects/storeLu.png";
+import phone from "../assets/projects/phone.png";
 import portfolio from "../assets/projects/portfolio.png";
 import lgant from "../assets/projects/lgant.png";
 import games from "../assets/projects/games.png";
@@ -18,6 +18,12 @@ export const projects = [
     pageLink: "https://freegamesapp.vercel.app/",
   },
   {
+    src: phone,
+    desc: "Phone E-commerce, made in collaboration with another developer, using React with Context API and MERN for admin dashboard",
+    repoLink: "https://github.com/kevinefraim/phone-store",
+    pageLink: "https://kevinefraim.github.io/phone-store",
+  },
+  {
     src: hardStore,
     desc: "Hardware E-Commerce, made with HTML, Sass and JavaScript, fetching fake API REST for rendering.",
     repoLink: "https://github.com/nicojoaquin/hard-store",
@@ -28,11 +34,5 @@ export const projects = [
     desc: "Personal page, used as portfolio, made with React and Bootstrap.",
     repoLink: "https://github.com/nicojoaquin/portfolio",
     pageLink: "https://nicolas-joaquin.vercel.app/",
-  },
-  {
-    src: storeLu,
-    desc: "Store of pots and plants, made with HTML, Sass and JavaScript, together with another developer.",
-    repoLink: "https://github.com/nicojoaquin/Store-Lu",
-    pageLink: "https://store-lu.netlify.app/",
   },
 ];

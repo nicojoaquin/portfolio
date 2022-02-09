@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { projects } from "../../data/projects";
 import { Carousel } from "3d-react-carousal";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import "./projects.css";
 
 const ProjectsContainer = () => {
