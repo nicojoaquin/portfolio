@@ -36,7 +36,8 @@ const AboutContainer = () => {
         </div>
         <br />
         <p className="desc">
-          Front end web developer, coding lover, ready to learn and improve.
+          Front End and Back End web developer, coding lover, ready to learn and
+          improve.
           <br />
           Always trying to put all my effort and my dedication in everything
           that I develop, to do it in the best way possible.

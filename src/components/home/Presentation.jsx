@@ -13,7 +13,7 @@ const Presentation = () => {
     <div className="d-flex flex-column align-items-center p-5">
       <div className="m-5 d-flex flex-column justify-content-center  text-center">
         <h1 className="mt-3 pt-5 fw-bold lg-5">Nicolás Joaquin</h1>
-        <h2 className="mt-3">Front End Web Developer</h2>
+        <h2 className="mt-3">Web Developer</h2>
         <span className="m-4 fs-5">e-mail: nicojoaquin1998@gmail.com</span>
         <div className="d-flex justify-content-center redes">
           <a
