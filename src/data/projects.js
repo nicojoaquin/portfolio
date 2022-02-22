@@ -14,7 +14,7 @@ export const projects = [
   {
     src: games,
     desc: "Free games app, fetching external api with redux toolkit. Login system made with MERN.",
-    repoLink: "https://github.com/nicojoaquin/games-app-backEnd",
+    repoLink: "https://github.com/nicojoaquin/games-app",
     pageLink: "https://freegamesapp.vercel.app/",
   },
   {
